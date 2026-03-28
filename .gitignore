@@ -20,6 +20,8 @@ env/
 # ----------------------------
 keys/*/
 !keys/.gitkeep
+logs/*
+!logs/.gitkeep
 
 # Never commit private keys
 *.pem
@@ -60,3 +62,5 @@ docs/*.pptx
 *.swp
 
 .claude/
+
+.session

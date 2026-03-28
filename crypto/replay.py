@@ -48,7 +48,7 @@ from pathlib import Path
 # Constants
 # -----------------------------------------------------------------------
 
-TIMESTAMP_WINDOW_SECS = 60       # reject messages older than this
+TIMESTAMP_WINDOW_SECS = 86400  # 24 hours       # reject messages older than this
 STATE_FILE = Path(__file__).parent.parent / "logs" / "replay_state.json"
 
 
